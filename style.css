@@ -1,0 +1,104 @@
+
+body {
+  color: rgb(220, 220, 220);
+  font-size: 40px;
+  background-color: rgb(220, 220, 220);
+}
+
+a {
+  font-size: 20;
+  color: rgb(150, 150, 150);
+}
+
+h1, h2, h3, h4{
+  color: rgb(150, 150, 150);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+}
+
+h3 {
+  font-size: 15;
+}
+
+h1 {
+  font-size: 25px;
+  color: FF101F;
+}
+
+h4 {
+  color: 79C7C5;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(160, 160, 160);
+  font-family: 'Muli', sans-serif;
+}
+
+
+  a:hover {
+  color: FF101F;
+}
+
+.container{
+
+  background-color: FFFFFF;
+  margin: 20 auto;
+  width: 500px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cards {
+  width: 500px;
+  padding: 20px;
+  margin: 20 auto;
+  background-color: FFFFFF;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.links {
+  width: 500px;
+  padding: 20px;
+  margin: 20 auto;
+  background-color: FFFFFF;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#photo1 {
+  border-radius: 4px;
+}
+
+.image {
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
