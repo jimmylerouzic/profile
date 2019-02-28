@@ -1,8 +1,8 @@
 
 body {
-  color: rgb(220, 220, 220);
   font-size: 40px;
-  background-color: rgb(220, 220, 220);
+  font-weight: 300;
+  line-height: 1.6em;
 }
 
 a {
@@ -13,17 +13,27 @@ a {
 h1, h2, h3, h4{
   color: rgb(150, 150, 150);
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 10px;
+  font-weight: lighter;
+}
+
+#gras{
+  color: rgb(100, 100, 100);;
 }
 
 h3 {
-  font-size: 15;
+  font-size: 16;
+  margin: 20 auto;
+  color: rgb(120, 120, 120);
+
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 20px;
   color: FF101F;
+  font-weight: lighter;
+
 }
 
 h4 {
@@ -35,6 +45,7 @@ p {
   font-size: 15px;
   color: rgb(160, 160, 160);
   font-family: 'Muli', sans-serif;
+  font-weight: lighter;
 }
 
 
@@ -42,39 +53,34 @@ p {
   color: FF101F;
 }
 
-.container{
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
 
-  background-color: FFFFFF;
+.container{
   margin: 20 auto;
-  width: 500px;
-  padding: 20px;
+  width: 650px;
   text-align: center;
   border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .cards {
-  width: 500px;
-  padding: 20px;
-  margin: 20 auto;
-  background-color: FFFFFF;
   text-align: center;
+  background-color: rgb(220, 220, 220);
+  padding: 15px;
+  margin: 20px auto;
+  border: 1px solid lightgrey;
   border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.links {
-  width: 500px;
-  padding: 20px;
-  margin: 20 auto;
-  background-color: FFFFFF;
-  text-align: center;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+.lign-title{
+  text-align: justify;
 }
 
 #photo1 {
-  border-radius: 4px;
+  border-radius: 150px;
 }
 
 .image {
@@ -97,8 +103,10 @@ p {
   }
 }
 
-.list-inline > li {
+.list-inline li {
   display: inline-block;
-  margin: 0;
-  padding: 0;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
 }
